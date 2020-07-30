@@ -42,6 +42,16 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 
+  body {
+    padding-top: 94px;
+  }
+
+  @media (max-width: 800px) {
+    body {
+      padding-top: 40px;
+    }
+  }
+
   a {
     color: inherit;
   }

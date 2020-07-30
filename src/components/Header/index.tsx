@@ -1,7 +1,20 @@
 import React from 'react';
 
+import LogoImage from '../../assets/images/logo.png';
+
+import {
+  Menu,
+  Logo,
+  ButtonLink,
+} from './style';
+
 const Header = () => (
-  <nav>Wesley Flix</nav>
+  <Menu>
+    <Logo src={LogoImage} alt='Logo Wesflix' />
+    <ButtonLink>
+      Novo video
+    </ButtonLink>
+  </Menu>
 );
 
 export default Header;
