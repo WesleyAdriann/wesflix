@@ -34,7 +34,7 @@ export const LabelText = styled.span`
   transition: .1s ease-in-out;
 `;
 
-export const Input = styled.input`
+export const Input = styled.input<InputStyledProps>`
   background: ${COLORS.grayBold};
   color: ${COLORS.grayLight};
   display: block;
@@ -61,4 +61,13 @@ export const Input = styled.input`
   &:focus:not([type='color']) + ${LabelText} {
     transform: scale(.6) translateY(-10px);
   }
+
+  ${({ value }) => {
+    const hasValue = value.length > 0;
+    return hasValue && css`
+        &:not([type='color']) + ${LabelText} {
+          transform: scale(.6) translateY(-10px);
+        }
+      `;
+  }}
 `;

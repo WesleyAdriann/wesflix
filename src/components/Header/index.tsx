@@ -15,7 +15,11 @@ const Header = () => (
     <Link to='/'>
       <Logo src={LogoImage} alt='Logo Wesflix' />
     </Link>
-    <Button as={Link} to='/cadastro/video'>
+    <Button
+      as  ={Link}
+      to  ='/cadastro/video'
+      withResponsive
+    >
       Novo video
     </Button>
   </Menu>

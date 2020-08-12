@@ -30,10 +30,10 @@ const Carousel = ({ category, ignoreFirstVideo }: CarouselProps) => {
       <Slider>
         {
           category.videos.map((video, index) => {
-            if(ignoreFirstVideo && index === 0) return <> </>;
+            if(ignoreFirstVideo && index === 0) return <React.Fragment key={index} />;
 
             return (
-              <SliderItem>
+              <SliderItem key={index}>
                 <VideoCard
                   videoTitle={video.titulo}
                   videoURL={video.url}

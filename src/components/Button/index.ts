@@ -4,7 +4,7 @@ import { COLORS } from '../../style';
 
 import { ButtonProps } from './types'
 
-const Button = styled.button`
+const Button = styled.button<ButtonProps>`
   color: ${COLORS.white};
   border: 1px solid ${COLORS.white};
   box-sizing: border-box;
@@ -24,7 +24,18 @@ const Button = styled.button`
     opacity: .5;
   }
 
-
+  ${({ withResponsive }) => withResponsive && css`
+    @media screen and (max-width: 800px) {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: ${COLORS.primary};
+      border-radius: 0;
+      border: 0;
+      text-align: center;
+    }
+  `}
 `;
 
 export default Button;

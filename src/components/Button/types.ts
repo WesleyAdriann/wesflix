@@ -1,3 +1,3 @@
 export interface ButtonProps {
-  withResponsive: boolean,
+  withResponsive?: boolean,
 }
