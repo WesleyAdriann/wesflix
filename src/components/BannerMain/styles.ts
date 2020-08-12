@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 import { COLORS } from '../../style';
 
+import {
+  BannerMainContainerProps
+} from './types';
+
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
   margin-right: 5%;
@@ -17,7 +21,7 @@ export const ContentAreaContainer = styled.section`
   }
 `;
 
-ContentAreaContainer.Item = styled.div`
+export const ContentAreaContainerItem = styled.div`
   width: 50%;
   display: inline-block;
   margin-bottom: 50px;
@@ -26,34 +30,13 @@ ContentAreaContainer.Item = styled.div`
   }
 `;
 
-ContentAreaContainer.Category = styled.h1`
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 70px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  display: inline-block;
-  padding: 25px;
-  line-height: 1;
-  border-radius: 4px;
-
-  @media (max-width: 800px) {
-    display: none;
-    font-size: 18px;
-    padding: 10px;
-  }
-`;
-
-ContentAreaContainer.Description = styled.p`
+export const ContentAreaContainerDescription = styled.p`
   @media (max-width: 800px) {
     display: none;
   }
 `;
 
-ContentAreaContainer.Title = styled.h2`
+export const ContentAreaContainerTitle = styled.h2`
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
@@ -71,7 +54,7 @@ export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
+  background-image: ${({ backgroundImage }: BannerMainContainerProps) => `url(${backgroundImage})`};
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {

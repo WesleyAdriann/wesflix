@@ -2,8 +2,8 @@ import React from 'react';
 
 import Header from '../../components/Header';
 import BannerMain from '../../components/BannerMain';
-import VideoCardGroup from '../../components/VideoCardGroup';
 import Footer from '../../components/Footer';
+import Carousel from '../../components/Carousel';
 
 import dadosIniciais from '../../mock/mock.json';
 
@@ -23,28 +23,28 @@ const Home = () => {
         videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
       />
 
-      <VideoCardGroup
+      <Carousel
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
 
-      <VideoCardGroup
+      <Carousel
         category={dadosIniciais.categorias[1]}
       />
 
-      <VideoCardGroup
+      <Carousel
         category={dadosIniciais.categorias[2]}
       />
 
-      <VideoCardGroup
+      <Carousel
         category={dadosIniciais.categorias[3]}
       />
 
-      <VideoCardGroup
+      <Carousel
         category={dadosIniciais.categorias[4]}
       />
 
-      <VideoCardGroup
+      <Carousel
         category={dadosIniciais.categorias[5]}
       />
 

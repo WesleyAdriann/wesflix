@@ -1,19 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import LogoImage from '../../assets/images/logo.png';
+
+import Button from '../Button';
 
 import {
   Menu,
   Logo,
-  ButtonLink,
 } from './style';
 
 const Header = () => (
   <Menu>
-    <Logo src={LogoImage} alt='Logo Wesflix' />
-    <ButtonLink>
+    <Link to='/'>
+      <Logo src={LogoImage} alt='Logo Wesflix' />
+    </Link>
+    <Button as={Link} to='/cadastro/video'>
       Novo video
-    </ButtonLink>
+    </Button>
   </Menu>
 );
 
