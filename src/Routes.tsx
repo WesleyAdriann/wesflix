@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route,  } from 'react-router-dom';
 
 import Home from './views/Home';
 
 const Routes = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route component={Home} exact path='/' />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default Routes;
