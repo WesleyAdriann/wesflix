@@ -18,16 +18,15 @@ const Home = () => {
       <Header />
 
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoTitle={dadosIniciais.bannerMain.titulo}
+        url={dadosIniciais.bannerMain.url}
+        videoDescription=''
       />
 
       {
         dadosIniciais.categorias.map((categoria, index) => (
           <Carousel
             category={categoria}
-            ignoreFirstVideo={index === 0}
             key={index}
           />
         ))

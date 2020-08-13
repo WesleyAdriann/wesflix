@@ -1,45 +1,45 @@
 {
+  "bannerMain": {
+    "titulo": "Destiny 2: A História de São-14, viagem no tempo e o Paradoxo Perfeito",
+    "url": "https://www.youtube.com/watch?v=EEkaupbYAWI"
+  },
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Games",
+      "link": "/",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": "/"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Bloodborne e os Limites da Compreensão Humana",
+          "url": "https://www.youtube.com/watch?v=-467xNf8cbk"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Bestiário de Skyrim- Tudo sobre os Falmer! (Ysgramor, Elfos do Gelo, cegueira e Atmora)",
+          "url": "https://www.youtube.com/watch?v=5yJibrrH56g"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Borderlands 2: Haderax lv80, Siren, Solo, Sem The Bee e Sem Levar Dano",
+          "url": "https://www.youtube.com/watch?v=amkc9_rdnY4"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Flash Dicas - COMO ESCOLHER A SUA BUILD NO DOTA!!!",
+          "url": "https://www.youtube.com/watch?v=JXmuHysXffo"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "O RESIDENT ALUCINÓGENO 1/2: resident evil 4",
+          "url": "https://www.youtube.com/watch?v=hhm62WyuPzE"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Easter Eggs Skyrim | TT Extra #102 (VEDA #13)",
+          "url": "https://www.youtube.com/watch?v=__d8Vh8M9Zk"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Destiny - Become Legend Official Trailer",
+          "url": "https://www.youtube.com/watch?v=ZSWN-VP0lD8"
         }
       ]
     },

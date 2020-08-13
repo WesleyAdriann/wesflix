@@ -7,7 +7,7 @@ import VideoCard from './VideoCard';
 import { VideoCardGroupContainer, Title, ExtraLink } from './style';
 import { CarouselProps } from './types';
 
-const Carousel = ({ category, ignoreFirstVideo }: CarouselProps) => {
+const Carousel = ({ category }: CarouselProps) => {
 
   return (
     <VideoCardGroupContainer>
@@ -29,19 +29,15 @@ const Carousel = ({ category, ignoreFirstVideo }: CarouselProps) => {
       }
       <Slider>
         {
-          category.videos.map((video, index) => {
-            if(ignoreFirstVideo && index === 0) return <React.Fragment key={index} />;
-
-            return (
-              <SliderItem key={index}>
-                <VideoCard
-                  videoTitle={video.titulo}
-                  videoURL={video.url}
-                  categoryColor={category.cor}
-                />
-              </SliderItem>
-            );
-          })
+          category.videos.map((video, index) => (
+            <SliderItem key={index}>
+              <VideoCard
+                videoTitle={video.titulo}
+                videoURL={video.url}
+                categoryColor={category.cor}
+              />
+            </SliderItem>
+          ))
         }
       </Slider>
     </VideoCardGroupContainer>

@@ -17,7 +17,6 @@ interface category {
 
 export interface CarouselProps {
   category: category,
-  ignoreFirstVideo: boolean,
 };
 
 export interface TitleProps {
