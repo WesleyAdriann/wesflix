@@ -16,6 +16,11 @@ const Footer = () => (
           Imersão React da Alura
         </a>
       </p>
+      <p>
+        Por
+        {' '}
+        <a href="https://github.com/wesleyadriann">Wesley Adriann </a>
+      </p>
     </FooterBase>
 );
 

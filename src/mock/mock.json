@@ -44,32 +44,32 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Programação",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "O Guia DEFINITIVO de UBUNTU para Devs Iniciantes",
+          "url": "https://www.youtube.com/watch?v=epiyExCyb2s"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "O que todo projeto deveria ter? #01 | GitHub PRO + Projetos Organizados + Linter + EditorConfig",
+          "url": "https://www.youtube.com/watch?v=yMRSDdifGW8"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "React & Firebase Firestore CRUD",
+          "url": "https://www.youtube.com/watch?v=Y9-UkL6ent4"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Fazendo um player de vídeo com React #HipstersPontoDicas - @Dev Soutinho",
+          "url": "https://www.youtube.com/watch?v=ZaYvwn9nBD4"
         },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Optional chaining - Novas funcionalidades do JavaScript no ES2020",
+          "url": "https://www.youtube.com/watch?v=0xDSWkxrnpg"
         }
       ]
     },
