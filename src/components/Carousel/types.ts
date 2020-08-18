@@ -17,6 +17,7 @@ interface category {
 
 export interface CarouselProps {
   category: category,
+  first: boolean,
 };
 
 export interface TitleProps {

@@ -40,6 +40,7 @@ export const ExtraLink = styled.a`
 export const VideoCardGroupContainer = styled.section`
   color: ${COLORS.white};
   min-height: 197px;
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-bottom: 16px;
 `;

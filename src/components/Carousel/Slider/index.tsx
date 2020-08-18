@@ -5,17 +5,17 @@ import SlickSlider from 'react-slick';
 import { Container } from './style';
 import { SliderProps } from './types';
 
-const Slider = ({ children }: SliderProps) => (
+const Slider = ({ children, autoplay }: SliderProps) => (
   <Container>
     <SlickSlider {...{
       dots: false,
+      autoplay,
+      pauseOnHover: autoplay,
       infinite: true,
-      speed: 300,
-      centerMode: false,
       variableWidth: true,
-      adaptiveHeight: true,
-    }}
-    >
+      centerPadding: "60px",
+      swipeToSlide: true,
+    }}>
       {children}
     </SlickSlider>
   </Container>

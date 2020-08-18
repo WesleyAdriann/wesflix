@@ -28,6 +28,7 @@ const Home = () => {
           <Carousel
             category={categoria}
             key={index}
+            first={index === 0}
           />
         ))
       }

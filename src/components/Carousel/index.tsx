@@ -1,13 +1,12 @@
 import React from 'react';
 
 import Slider from './Slider';
-import SliderItem from './SliderItem';
 import VideoCard from './VideoCard';
 
 import { VideoCardGroupContainer, Title, ExtraLink } from './style';
 import { CarouselProps } from './types';
 
-const Carousel = ({ category }: CarouselProps) => {
+const Carousel = ({ category, first }: CarouselProps) => {
 
   return (
     <VideoCardGroupContainer>
@@ -27,16 +26,15 @@ const Carousel = ({ category }: CarouselProps) => {
           </>
         )
       }
-      <Slider>
+      <Slider autoplay={first}>
         {
           category.videos.map((video, index) => (
-            <SliderItem key={index}>
-              <VideoCard
-                videoTitle={video.titulo}
-                videoURL={video.url}
-                categoryColor={category.cor}
-              />
-            </SliderItem>
+            <VideoCard
+              videoTitle={video.titulo}
+              videoURL={video.url}
+              categoryColor={category.cor}
+              key={index}
+            />
           ))
         }
       </Slider>
